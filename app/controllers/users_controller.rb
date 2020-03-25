@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @name = 'I ma the create action!'
+    @name = 'I am the show action!'
   end
 
   def edit
