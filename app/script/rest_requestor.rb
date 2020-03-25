@@ -2,7 +2,7 @@ require 'rest-client'
 
 puts 'Please enter the URL:'
 url = gets.chomp()
-base_url =  'http://localhost:3000/' + url
+base_url = 'http://localhost:3000/' + url
 
 puts 'Please enter the URL:'
 verb = gets.chomp()
